@@ -1,3 +1,10 @@
+.container {
+	--max-width: 23.4375rem;
+	--px-base: 2rem;
+	width: min(var(--max-width), 100% - var(--px-base));
+	margin-inline: auto;
+}
+
 .flex {
 	display: flex;
 }
@@ -5,4 +12,42 @@
 .flex-column {
 	display: flex;
 	flex-direction: column;
+}
+
+.justify-center {
+	justify-content: center;
+}
+
+/* PADDING X */
+.px-sm {
+	padding-inline: 1rem;
+}
+
+.px-md {
+	padding-inline: 2rem;
+}
+
+.px-lg {
+	padding-inline: 3rem;
+}
+
+/* PADDING Y */
+.py-sm {
+	padding-block: 1rem;
+}
+
+.py-md {
+	padding-block: 2em;
+}
+
+.py-lg {
+	padding-block: 3rem;
+}
+
+@media (width >= 80em) {
+	.container {
+		width: 100%;
+		margin-inline: auto;
+		padding-inline: 10rem;
+	}
 }

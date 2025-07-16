@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 	<head>
+		<link
+			rel="preconnect"
+			href="https://fonts.googleapis.com"
+		/>
+		<link
+			rel="preconnect"
+			href="https://fonts.gstatic.com"
+			crossorigin
+		/>
+
 		<meta charset="UTF-8" />
 		<meta
 			name="viewport"
@@ -12,10 +22,53 @@
 			rel="stylesheet"
 			href="./styles/index.css"
 		/>
+
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+			rel="stylesheet"
+		/>
 	</head>
-	<body>
+	<body class="container">
 		<header>
-            
-        </header>
+			<div class="logo flex justify-center py-sm">
+				<img
+					src="./assets/logo.png"
+					alt=""
+				/>
+			</div>
+		</header>
+
+		<main>
+			<section class="itens-container">
+				<a href="#">
+					<img
+						src="./assets/left-arrow.svg"
+						alt=""
+					/>
+					Voltar</a
+				>
+				<h1>Compras da semana</h1>
+
+				<div class="input-wrapper"></div>
+
+				<ul class="item-list">
+					<li class="item">
+						<label>
+							<input type="checkbox" />
+							<span class="item-name">Morango</span>
+						</label>
+						<button
+							class="delete-btn"
+							aria-label="delete item"
+						>
+							<img
+								src="./assets/trash.svg"
+								alt="Ícone de lixeira"
+							/>
+						</button>
+					</li>
+				</ul>
+			</section>
+		</main>
 	</body>
 </html>

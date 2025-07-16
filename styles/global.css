@@ -50,10 +50,10 @@
 }
 
 html {
+	h1 {
+		font: var(--fw-title) var(--fs-title) / var(--lh-title) var(--ff-default);
+	}
 }
 
 body {
-	width: 100vh;
-	height: auto;
-	background-color: deeppink;
 }
