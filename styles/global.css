@@ -50,9 +50,29 @@
 }
 
 html {
-	h1 {
-		font: var(--fw-title) var(--fs-title) / var(--lh-title) var(--ff-default);
-	}
+	font: var(--fw-label) var(--fs-label) / var(--lh-label) var(--ff-default);
+}
+
+h1 {
+	font: var(--fw-title) var(--fs-title) / var(--lh-title) var(--ff-default);
+}
+
+a {
+	font: var(--fw-link) var(--fs-link) / var(--lh-link) var(--ff-default);
+}
+
+p {
+	font: var(--fw-paragraph) var(--fs-paragraph) / var(--lh-paragraph)
+		var(--ff-default);
+}
+
+input::placeholder,
+textarea::placeholder {
+	font: var(--fw-input) var(--fs-input) / var(--lh-input) var(--ff-default);
+}
+
+button {
+	font: var(--fw-label) var(--fs-label) / var(--lh-label) var(--ff-default);
 }
 
 body {

@@ -44,6 +44,10 @@
 	padding-block: 3rem;
 }
 
+.green {
+	border: solid 2px green;
+}
+
 @media (width >= 80em) {
 	.container {
 		width: 100%;

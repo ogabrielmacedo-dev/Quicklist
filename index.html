@@ -39,17 +39,32 @@
 		</header>
 
 		<main>
-			<section class="itens-container">
-				<a href="#">
+			<section
+				id="itens-container"
+				class="green flex-column"
+			>
+				<a
+					href="#"
+					id="back"
+					class="back-btn flex"
+				>
 					<img
 						src="./assets/left-arrow.svg"
-						alt=""
+						alt="Voltar"
 					/>
-					Voltar</a
-				>
+					<span>Voltar</span>
+				</a>
+
 				<h1>Compras da semana</h1>
 
-				<div class="input-wrapper"></div>
+				<div class="input-wrapper flex-column">
+					<input
+						type="text"
+						placeholder="Adicione um novo item"
+					/>
+
+					<button type="submit">Adicionar item</button>
+				</div>
 
 				<ul class="item-list">
 					<li class="item">
@@ -70,5 +85,6 @@
 				</ul>
 			</section>
 		</main>
+		<script src="./scripts/script.js"></script>
 	</body>
 </html>
