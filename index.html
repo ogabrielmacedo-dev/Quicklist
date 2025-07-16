@@ -41,7 +41,7 @@
 		<main>
 			<section
 				id="itens-container"
-				class="green flex-column"
+				class="flex-column"
 			>
 				<a
 					href="#"
@@ -67,13 +67,33 @@
 				</div>
 
 				<ul class="item-list">
-					<li class="item">
-						<label>
+					<li class="item flex">
+						<label class="flex">
 							<input type="checkbox" />
+							<span class="checkmark"></span>
 							<span class="item-name">Morango</span>
 						</label>
 						<button
-							class="delete-btn"
+							class="delete-btn flex"
+							aria-label="delete item"
+						>
+							<img
+								src="./assets/trash.svg"
+								alt="Ícone de lixeira"
+							/>
+						</button>
+					</li>
+				</ul>
+
+				<ul class="item-list">
+					<li class="item flex">
+						<label class="flex">
+							<input type="checkbox" />
+							<span class="checkmark"></span>
+							<span class="item-name">Morango</span>
+						</label>
+						<button
+							class="delete-btn flex"
 							aria-label="delete item"
 						>
 							<img

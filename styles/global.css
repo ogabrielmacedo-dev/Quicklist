@@ -51,6 +51,7 @@
 
 html {
 	font: var(--fw-label) var(--fs-label) / var(--lh-label) var(--ff-default);
+	background-color: var(--bg-primary);
 }
 
 h1 {
