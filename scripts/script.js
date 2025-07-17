@@ -35,8 +35,6 @@ function addItem(name) {
 		},
 		{ once: true }
 	);
-
-	console.log(li);
 }
 
 // ADICIONA ITEM COM CLICK
